@@ -80,7 +80,7 @@ p {
 }
 
 .btn-success {
-  background: #2B1CD4;
+  background: #204d74;
   font-weight: 300;
   letter-spacing: 2px;
   padding: 14px 32px;
@@ -417,7 +417,7 @@ a:hover, a:active, a:focus {
 }
 
 #about .team-thumb:hover {
-  background: #2B1CD4;
+  background: #204d74;
 }
 
 #about .team-thumb:hover .image-holder {
@@ -494,7 +494,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #contact, footer {
-  background: #2B1CD4;
+  background: #204d74;
   color: #ffffff;
 }
 
