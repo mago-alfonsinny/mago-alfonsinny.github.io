@@ -33,8 +33,9 @@ $(document).ready(function() {
   $(function() {
     $('body').vegas({
         slides: [
-            { src: 'images/profile/IMG_1568.JPG' },
-            { src: 'images/safety/13962898_10210240055617161_5445010056669825392_o.jpg' }
+            { src: 'images/profile/IMG_1581.JPG' },
+            { src: 'images/safety/75636003_10221065271320788_8232960262093668352_n.jpg' },
+            { src: 'images/gallery/SLIDE2.jpg' },
         ],
         timer: false,
         transition: [ 'zoomIn', ],
