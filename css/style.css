@@ -43,7 +43,7 @@ h1 {
 }
 
 h2 {
-  color: #e44c65;
+  color: #FFFFFF;
   font-size: 1.2rem;
   font-weight: bold;
   letter-spacing: 4px;
@@ -80,7 +80,7 @@ p {
 }
 
 .btn-success {
-  background: #e44c65;
+  background: #2B1CD4;
   font-weight: 300;
   letter-spacing: 2px;
   padding: 14px 32px;
@@ -92,14 +92,14 @@ p {
 }
 
 a {
-  color: #e44c65;
+  color: #FFFFFF;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none !important;
 }
 a:hover, a:active, a:focus {
-  color: #e44c65;
+  color: #FFFFFF;
   outline: none;
 }
 
@@ -417,7 +417,7 @@ a:hover, a:active, a:focus {
 }
 
 #about .team-thumb:hover {
-  background: #304352;
+  background: #2B1CD4;
 }
 
 #about .team-thumb:hover .image-holder {
@@ -455,7 +455,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-    Galllery section              
+    Gallery section
 -----------------------------------------*/
 
 #gallery {
@@ -484,6 +484,9 @@ a:hover, a:active, a:focus {
   width: 100%;
 }
 
+#business {
+  letter-spacing: 7px;
+}
 
 
 /*---------------------------------------
@@ -491,7 +494,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #contact, footer {
-  background: #304352;
+  background: #2B1CD4;
   color: #ffffff;
 }
 
