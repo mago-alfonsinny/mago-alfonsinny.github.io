@@ -145,6 +145,13 @@
 }
 
 @media screen and (max-width: 425px){
+	.cs-style-4 figure img {
+		-webkit-transform: translateX(25%);
+		-moz-transform: translateX(25%);
+		-ms-transform: translateX(25%);
+		transform: translateX(25%);
+	}
+
 	.cs-style-4 figure figcaption {
 		opacity: 1;
 		-webkit-transform: rotateY(0deg);
