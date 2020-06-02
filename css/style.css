@@ -668,6 +668,13 @@ footer {
 
 }
 
+@media (max-width: 425px) {
+  .grid figcaption small {
+    font-size: 12px;
+  }
 
-
+  #business {
+    letter-spacing: 5px;
+  }
+}
 
