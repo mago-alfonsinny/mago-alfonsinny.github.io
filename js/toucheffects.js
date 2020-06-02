@@ -67,15 +67,23 @@
 			window.classie = classie;
 		}
 
-		// [].slice.call( document.querySelectorAll( 'ul.grid > li > figure' ) ).forEach( function( el, i ) {
-		// 	el.querySelector( 'figcaption > a' ).addEventListener( 'touchstart', function(e) {
-		// 		e.stopPropagation();
-		// 	}, false );
-		// 	el.addEventListener( 'touchstart', function(e) {
-		// 		classie.toggle( this, 'cs-hover' );
-		// 	}, false );
-		// } );
+		[].slice.call( document.querySelectorAll( 'ul.grid > li > figure' ) ).forEach( function( el, i ) {
+			el.querySelector( 'figcaption > a' ).addEventListener( 'touchstart', function(e) {
+				e.stopPropagation();
+			}, false );
+			el.addEventListener( 'touchstart', function(e) {
+				classie.toggle( this, 'cs-hover' );
+			}, false );
+		} );
 
+	}
+
+	if ("ontouchstart" in document.documentElement) {
+		document.querySelectorAll('ul.grid > li > figure').forEach(el => {
+			el.querySelector('figcaption').addEventListener('touchstart', ev => {
+				el.classList.add('cs-hover')
+			})
+		})
 	}
 
 })( window );

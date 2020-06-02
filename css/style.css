@@ -668,7 +668,7 @@ footer {
 
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .grid figcaption small {
     font-size: 12px;
   }
