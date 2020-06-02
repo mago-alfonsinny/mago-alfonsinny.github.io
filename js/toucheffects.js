@@ -78,12 +78,4 @@
 
 	}
 
-	if ("ontouchstart" in document.documentElement) {
-		document.querySelectorAll('ul.grid > li > figure').forEach(el => {
-			el.querySelector('figcaption').addEventListener('touchstart', ev => {
-				el.classList.add('cs-hover')
-			})
-		})
-	}
-
 })( window );

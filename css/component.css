@@ -143,3 +143,15 @@
 		min-width: 300px;
 	}
 }
+
+@media screen and (max-width: 425px){
+	.cs-style-4 figure figcaption {
+		opacity: 1;
+		-webkit-transform: rotateY(0deg);
+		-moz-transform: rotateY(0deg);
+		transform: rotateY(0deg);
+		-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+		-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+		transition: transform 0.4s, opacity 0.1s;
+	}
+}
